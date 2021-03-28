@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" type = "text/css" href = "main.css">
+  </head>
+  <body>
+    <h1>Welcome to INTERNET-PROGRAMMING SHOP</h1>
+    <p class = "button">
+        <a href="login.html">로그인</a> 회원가입
+      </p>
+        <div class = "userinfo">개인정보(필수)</div>
+    <form method = "post" action = "https://www.example.com">
+      <p>
+        <label>이름: <input name = "name" type = "text" size = "25"
+          maxlength = "30" autofocus autocomplete />
+         </label>
+      </p>
+      <p>
+        <label>생일: <input name = "date" type = "date" /> </label>
+      </p>
+      <p>
+        <label>학년: <input number = "grade" type = "grade" /> </label>
+      </p>
+      <p>
+        <label>전화번호: <input name = "tel" type = "tel"
+          placeholder = "(###) ###-####" pattern = "\(\d{3}\) +\d{3}-\d{4}"
+          required />
+        </label>
+      </p>
+      <p>
+        <label>유저 아이디: <input name = "id" type = "id" autocomplete required /> </label>
+      </p>
+      <p>
+        <label>비밀번호: <input name = "password" type = "password" required /> </label>
+      </p>
+      <p>
+        <label>비밀번호 확인: <input name = "password" type = "password"
+          placeholder = "비밀번호 재입력" required /></label>
+      </p>
+      <p>
+        <input class = "submit" type = "submit" value = "Signup" />
+        <input class = "cancel" type = "reset" value = "Cancel" />
+      </p>
+
+  </body>
+</html>

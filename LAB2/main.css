@@ -1,0 +1,28 @@
+body {
+  margin:0;
+}
+h1 {
+  font-size:45px;
+  font-family: fantasy;
+  text-align: center;
+  margin:0;
+  padding:20px;
+}
+.submit {
+  background-color: green;
+}
+.newaccount {
+  background-color: blue;
+}
+.cancel {
+  background-color: red;
+}
+.button {
+  color:red;
+  border:20px;
+  padding:20px;
+}
+.userinfo {
+  width: 5%;
+  height: 10%;
+}
