@@ -1,0 +1,79 @@
+body {
+  margin:0 auto;
+  width:1020px;
+}
+h1 {
+  font-size:45px;
+  font-family: fantasy;
+  text-align: center;
+  margin:0;
+  padding:20px;
+}
+.submit {
+  background-color: green;
+}
+.newaccount {
+  background-color: blue;
+}
+.cancel {
+  background-color: red;
+}
+.button {
+  color:red;
+  border:20px;
+  padding:20px;
+}
+.userinfo {
+  width: 5%;
+  height: 10%;
+}
+nav {
+  text-align: center;
+}
+header {
+  width:1020px;
+  margin: auto;
+  animation-duration: 2s;
+  animation-name: slide;
+}
+
+@keyframes slide {
+  from {
+    margin-left: 100%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+img {
+  transition: transform 2s;
+  display: block; margin: 75px auto;
+}
+img:hover {
+  transform: scale(2,2);
+}
+section {
+  text-align: center;
+}
+article {
+  column-count: 2; column-gap: 1px; column-rule-width: 1px;
+  column-rule-style: outset; column-rule-color: black;
+  left: 0;
+  right: 0;
+  width: 1020px;
+  margin: 400px auto;
+}
+.box {
+  position: absolute;
+  top:50%;
+  left:50%;
+  height: 300px;
+  width: 300px;
+  margin-left: -150px;
+  margin-top: -150px;
+  border: 2px solid;
+  text-align: center;
+}
